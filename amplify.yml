@@ -1,4 +1,10 @@
 version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - amplifyPush --simple
+        
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
